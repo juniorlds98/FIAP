@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Pokedex</title>
+</head>
+<body>
+    <header>
+        
+    </header>
+    <main>
+        <div class="pokedex">
+            <img src="./src/img/Pokedex.png" alt="Pokedex" class="img--pokedex" >
+        </div>
+        <div class="container--upper">
+            <div class="container--name">
+                <h3 id="nome">Piplup</h3>
+                <h4 id="numero">#001</h4>
+            </div>
+            <button class="container--type"> aqua </button>
+            <div class="container--image">
+                <img id="figura" src="./src/img/piplup 2.png" alt="piplup" class="pokemon--image">
+            </div>
+        </div>        
+        <div class="container--status">
+            <ul id="status" class="container--power">
+                <li class="title">Status</li>
+                <li>HP:</li>
+                <li>Ataque:</li>
+                <li>Defesa:</li>
+                <li>Ataque especial:</li>
+                <li>Defesa especial:</li>
+                <li>Velocidade:</li>
+                <li>Total:</li>
+            </ul>
+            <ul id="habilidades" class="container--hability">
+                <li class="title">Habilidades</li>
+                <li>Alguma lá</li>
+                <li>Alguma cá</li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <button onclick="trocar(pokemon1, nome1, numero1, status1, habilidades)" class="button"><img src="./src/img/piplup.rosto.png" alt="Piplup" class="pokemon-1">Piplup</button>
+        <button onclick="trocar(pokemon2, nome2, numero2, status2, habilidades)" class="button"><img src="./src/img/prinplup.rosto.png" alt="Prinplup" class="pokemon-2">Prinplup</button>
+        <button onclick="trocar(pokemon3, nome3, numero3, status3, habilidades)" class="button"><img src="./src/img/empoleon.rosto.png" alt="Empoleon" class="pokemon-3">Empoleon</button>
+    </footer>
+</body>
+<script src="./js/script.js"></script>
+</html>

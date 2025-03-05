@@ -1,0 +1,18 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "uma aula teste",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "node main js"
+  },
+  "author": "Junior Silva",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "faker-br": "^0.4.1",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {}
+}

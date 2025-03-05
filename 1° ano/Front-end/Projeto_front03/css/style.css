@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid
+}
+
+.img--gordo{
+    width: 50px;
+}
+
+.img--patas{
+    width: 50px;
+}
+
+.buscar{
+    width: 1000px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+.lista{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    list-style-type: none;
+    font-weight: bold;
+}
+
+.bloco-1{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.bloco--2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    border: solid 1px black;
+    width: 200px;
+    height: 100px;
+}

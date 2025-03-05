@@ -1,0 +1,148 @@
+/* 1. Universal*/
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/* 2. Cabeçalho*/
+
+header{
+    background-color: black;
+    color: #cedbea;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    font-weight: bold;
+
+}
+
+/*PS: Os dois estilos a baixo (MUSIC e FIAP) foram as formas que eu encontrei de estilizar as duas palavras
+sem precisar necessáriamente separas as palavras*/
+/*PS²: Coloquei interação no cursor pois queria "simular" um botão, mas estava com preguiça de estilizar um 
+botão e fazer parecer que não era um botão"*/
+
+.music{
+    color: #cedbea;
+    cursor: pointer;
+}
+
+.fiap{
+    color: #70032A;
+}
+
+/*Coloquei uma classe geral para o cabeçalho para estilizar todos igualmente*/
+
+.home{
+    margin: 45.48px;
+    cursor: pointer;
+    padding: 1px;
+}
+
+.home2{
+    padding: 5px;
+}
+
+.account{
+    color: #70032A;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.end{
+    cursor: pointer
+}
+
+/*3. Corpo*/
+
+main{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.main-content{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.text{
+    color: #cedbea;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.text2{
+    margin-top: 30px;
+}
+
+img{
+    border-radius: 15px 15px 15px 15px;
+    margin-top: 50px;
+    max-width: 750px;
+    height: 450px;
+    margin-right: 5px;
+    
+}
+
+.music2{
+    margin-top: 50px;
+    color: #70032A;
+    font-size: 70px;
+}
+
+.everyone{
+    color: #cedbea;
+}
+
+.buttons{
+    padding-top: 95px;
+    align-self: flex-start;
+    gap: 46px;
+    display: flex;
+    margin-left: 10px;
+}
+
+.start{
+    border-radius: 45.2px;
+    width: 150px;
+    height: 25px;
+    background-color: #70032A;
+    align-items: center;
+}
+
+.download{
+    border-radius: 25.2px;
+    width: 150px;
+    height: 55px;
+    background-color: #cedbea;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+.start{
+    border-radius: 25.2px;
+    width: 150px;
+    height: 55px;
+    background-color: #70032A;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+/*4. Final*/
+
+footer{
+    text-align: center; 
+    color: #cedbea;
+    font-weight: bold;
+    background-color: black;
+    justify-content: center;
+    padding: 15px;
+}

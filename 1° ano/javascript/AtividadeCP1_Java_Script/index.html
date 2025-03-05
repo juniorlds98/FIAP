@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculador de tempo de duração de reunião</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container--imgtexto">
+            <h1>Calcule o tempo de duração da sua reunião</h1>
+            <img src="/img/time-is-passing-blue-hourglass-close-up.webp" alt="">
+            <p>Use a ferramenta a seguir para calcular o tempo de duração de sua reunião colocando seus parâmetros a seguir:</p>
+        </div>    
+    </header>
+    <main>
+        <section class="container--horas">
+            <article class="container--horainicio">
+                <span>Início: </span>
+                <span>Horas</span>
+                <input type="text" id="horascomeco" class="container--horascomeco">
+                <span>Minutos</span>
+                <input type="text" id="minutoscomeco" class="container--minutoscomeco">
+            </article>
+            <article class="container--horatermino">
+                <span>Término: </span>
+                <span>Horas</span>
+                <input type="text" id="horastermino" class="container--horas1termino">
+                <span>Minutos</span>
+                <input type="text" id="minutostermino" class="container--minutostermino">
+            </article>
+            <article>
+                <button onclick="tempo()">calcular duração</button>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <article class="container--resposta">
+            <span id="resposta">Bunda demais</span>
+        </article>
+    </footer>  
+<script src="main.js"></script>  
+</body>
+
+</html>

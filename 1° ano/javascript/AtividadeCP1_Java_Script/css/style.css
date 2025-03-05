@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+img{
+    border-radius: 25px;
+    margin: 5px;
+    width: 300px;
+    text-align: center;
+    container: 10px;
+}
+
+.container--imgtexto{
+    text-align: center;
+}
+
+h1{
+    margin: 20px;
+}
+
+.container--horas{
+    text-align: center;
+}
+
+button{
+
+    cursor: pointer;
+    margin: 10px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: greenyellow;
+    color: black;
+}
+
+p{
+    padding: 10;
+    margin: 10;
+    border-bottom: 2px solid #dddddd;
+    font-size: 20px;
+    margin: 20px;
+    
+}
+
+
+.container--horainicio{
+    margin: 10px;
+    font-weight: bold;
+}
+
+
+.container--horatermino{
+    margin: 10px;
+    margin-left: 25px;
+    font-weight:bold;
+}
+
+.container--horascomeco{
+    width: 50px;
+    border-radius: 5px;
+}
+
+.container--minutoscomeco{
+    width: 50px;
+    border-radius: 5px;
+}
+
+.container--horas1termino{
+    width: 50px;
+    border-radius: 5px;
+}
+
+.container--minutostermino{
+    width: 50px;
+    border-radius: 5px;
+}
+
+.container--resposta{
+    text-align: center;
+    font-weight: bold;
+    margin-top:50px ;
+    font-size: 35px;
+}

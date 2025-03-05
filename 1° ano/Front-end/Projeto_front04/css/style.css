@@ -1,0 +1,225 @@
+/* Indice */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Inicio */
+
+body{
+    background-image: url(./../src/img/spiderman-miles-morales-screenshot-01-disclaimer-en-01oct20\ 1.png);
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo{
+    height: 50px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    align-items: center;
+    height: 100px;
+    
+}
+
+.itens{
+    padding-right: 10px;
+}
+
+.link{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    font-weight: bold;
+    color: red;
+}
+
+/* Corpo */
+
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+section{
+    flex: 2;
+    text-align: left;
+}
+
+article{
+    width: 65%;
+    padding-bottom: 143px;
+}
+
+
+
+nav{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+.trailer{
+    width: 200px;
+    height: 70px;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    background-color: #f72b2bc9;
+    color: white;
+}
+
+h1{
+    font-size: 100px;
+}
+
+h3{
+    font-size: 50px;
+    padding-bottom: 25px;
+    color: red;
+}
+
+/* Final*/
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+/*Responsividade*/
+
+@media screen and (max-width: 768px) {
+    body{
+        background-position: 40% center;
+    }
+
+    .link{
+        width: 75%;
+    }
+
+    footer{
+        justify-content: center;
+        padding: 5px;
+    }
+    h1{
+        font-size: 50px;
+    }
+    h3{
+        font-size: 35px;
+    }
+    nav{
+        height: 400px;
+    }
+
+    .trailer{
+        width: 150px;
+        height: 60px;
+        font-weight: bold;
+        font-size: 15px;
+        border-radius: 15px;
+        border: none;
+        cursor: pointer;
+        background-color: #f72b2bc9;
+        color: white;
+    }
+    article {
+        width: 65%;
+        padding-bottom: 140px;
+    }
+}
+
+
+@media screen and (max-width: 480px){
+    body{
+        background-position: 40% center;
+    }
+    footer{
+        justify-content: center;
+        padding: 5px;
+    }
+    h1{
+        font-size: 50px;
+    }
+    h3{
+        font-size: 25px;
+    }
+    .texto-longo{
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 6;
+    }
+    .link{
+        flex-direction: column;
+        align-items: flex-end;
+        display: none;
+    }
+    .menu-hamburguer {
+        display: inline-block;
+        width: 30px;
+        height: 24px;
+        position: relative;
+        cursor: pointer;
+        margin-right: 20px;
+    }
+    
+    .menu-hamburguer span {
+        display: block;
+        width: 100%;
+        height: 4px;
+        background-color: rgb(248, 5, 5);
+        margin-bottom: 5px;
+        border-radius: 2px;
+        transition: 0.3s;
+    }
+    .link {
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        top: 100px;
+        right: 0;
+        padding: 10px;
+        z-index: 1000;
+        border-radius: 5px;
+    }
+    .link.menu-ativo {
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        height: 250px;
+    }
+    nav{
+        height: 500px;
+    }
+    .trailer{
+        width: 150px;
+        height: 60px;
+        font-weight: bold;
+        font-size: 15px;
+        border-radius: 15px;
+        border: none;
+        cursor: pointer;
+        background-color: #f72b2bc9;
+        color: white;
+    }
+}
