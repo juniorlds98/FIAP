@@ -1,0 +1,45 @@
+.container {
+    height: 80vh;
+    margin: 4rem auto 10rem;
+    color: #fff;
+    text-align: center;
+}
+
+.box { min-height: 5rem; }
+
+.box1 { background-color: #bebbbb; }
+.box2 { background-color: #444054; }
+.box3 { background-color: #2f243a; }
+.box4 { background-color: #2a2464; }
+
+.grid-container{
+    display: grid;
+}
+
+.ex-1{
+    grid-template-columns: 15rem 7rem 12rem 8rem;
+}
+
+.ex-2{
+    grid-template-columns: 15fr 7fr 12fr 8fr;
+}
+
+.ex-3{
+    grid-template-columns: repeat(4,1fr);
+}
+
+.ex-4{
+    grid-template-columns: minmax(100px, 1fr) repeat(3, 2fr)
+}
+
+.ex-5{
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr   ))
+}
+
+.ex-6{
+    grid-template-columns: repeat(auto-fill, 150px)
+}
+
+.ex-7{
+    grid-template-rows: ;
+}

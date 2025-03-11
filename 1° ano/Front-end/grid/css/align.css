@@ -1,0 +1,39 @@
+.container {
+    margin: 10px auto;
+    min-height: 300px;
+    width: 80%;
+    border: 1px solid #000;
+    display: grid;
+    /*Quantidade de colunas e linhas*/
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(2, 100px);
+    gap: 20px;
+    justify-content: space-evenly;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.box {
+    color: #fff;
+    border: 2px solid #2a2464;
+    padding: 10px;
+}
+
+.box1, .box4 { background-color: #bebbbb; }
+.box2, .box5 { background-color: #444054; }
+.box3, .box6 { background-color: #2f243a; }
+
+.grid-list .box1{
+    grid-row: 2; /*Definir onde ele vai começar*/
+}
+.grid-list .box2{
+    grid-row-start: 3; /*Definir que ele vai começar na linha onde decidir*/
+}
+.grid-list .box3{
+    grid-row-end: 6; /*Definir que ele vai terminar na linha onde decidir*/
+}
+
+.grid-list .box4{
+    grid-row-end: 1/4; /*Definir que ele vai começar e terminar na linha onde decidir*/
+}
