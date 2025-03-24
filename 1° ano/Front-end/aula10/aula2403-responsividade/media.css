@@ -1,0 +1,34 @@
+@media (max-width: 500px) {
+    .banner {
+        flex-direction: column;
+        height: 100vh;
+        padding: 50px 0 30px;
+    }
+    .banner_btns{
+        justify-content: center;
+    }
+    .banner_img{
+        max-width: 330px;
+    }
+    .banner_text{
+         font:1em
+    }
+    .tech{
+        flex-direction: column;
+        gap: 35px
+    }
+    .products{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-1{
+        margin: 40px;
+    }
+    .h2{
+        width: 100%;
+    }
+    .footer_list{
+        width: 0%;
+    }
+}
