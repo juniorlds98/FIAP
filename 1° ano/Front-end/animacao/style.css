@@ -1,0 +1,75 @@
+.container{
+    height: 100vh;
+    
+}
+
+.btn{
+    border: 1px solid  brown;
+    text-decoration: none;
+    padding: 20px 25px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    transition: background-color 3s linear;
+    &:hover{
+        background-color: brown;
+        color: #fff;
+    }
+}
+
+.box{
+    background-color: blue;
+    margin: 50px;
+    width: 450px;
+    height: 250px;
+    padding: 20px;
+    transition: background-color 3s linear;
+
+    &:hover{
+        background-color: bisque;
+
+        i{
+            /*animation: rocket 3s ease 2s 2 reverse;*/
+            animation: rocket 3s ease 2s 2 alternate;
+        }
+    }
+
+    i{
+        color: #fff;
+        font-size: 4rem;
+        position: relative;
+    }    
+}
+
+@keyframes rocket {
+    0%{
+        left:0;
+        top:0;
+    }
+    25%{
+        left: calc(100% - 5rem);
+        top: 0;
+    }
+    50%{
+        left: calc(100% = 5rem);
+        top: calc(100% = 5rem);
+    }
+    75%{
+        left: 0;
+        top: calc(100% - 5rem);
+    }
+    100%{
+        left:0;
+        top:0;
+    }
+
+}
+
+.text{
+    font-weight:900 ;
+    font-size: 5em;
+    color: black;
+    border-top: 5px dotted black;
+    border-bottom: 5px dotted black;
+    padding: 20px 0;
+    text-align: center;
+}
