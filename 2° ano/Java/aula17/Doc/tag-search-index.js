@@ -1,0 +1,1 @@
+tagSearchIndex = [{"l":"Classe para modelagem de duas operações de calculo","h":"class models.Calc","d":"Section","u":"models/Calc.html#classe-para-modelagem-de-duas-opera-es-de-calculo-heading"}];updateSearchResults();
