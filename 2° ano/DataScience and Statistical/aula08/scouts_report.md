@@ -1,0 +1,2 @@
+# Relatório automático — Scouts 2015
+\nEste relatório foi gerado automaticamente pelo notebook. Ajuste e refine as análises conforme necessário.\n\n- Correlação preço x pontos (Pearson aprox.): 0.373\n\n- Correlação gols x assistências: coluna não detectada automaticamente.\n\n\n## Observações sobre outliers\n\nVerifique boxplots e resultados do z-score/IQR no notebook para detectar performances extremas.\n
